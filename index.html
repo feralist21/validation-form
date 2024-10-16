@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Validation Form</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 class="wrapper__title">Validation Form</h1>
+            <form class="form">
+                <div class="field">
+                    <label class="field__label" for="first-name">Имя</label>
+                    <input class="field__input" type="text" id="first-name" name="first-name" />
+                    <span class="field__error">текст ошибки</span>
+                </div>
+                <div class="field">
+                    <label class="field__label" for="first-name">Имя</label>
+                    <input class="field__input" type="text" id="last-name" name="last-name" />
+                    <span class="field__error">текст ошибки</span>
+                </div>
+                <div class="field">
+                    <label class="field__label" for="first-name">Имя</label>
+                    <input class="field__input" type="email" id="email" name="email" />
+                    <span class="field__error">текст ошибки</span>
+                </div>
+                <div class="field">
+                    <label class="field__label" for="first-name">Имя</label>
+                    <input class="field__input" type="password" id="password" />
+                    <span class="field__error">текст ошибки</span>
+                </div>
+                <div class="field">
+                    <label class="field__label" for="first-name">Имя</label>
+                    <input class="field__input" type="password" name="password-confirm" id="password-confirm" />
+                    <span class="field__error">текст ошибки</span>
+                </div>
+                <div class="field">
+                    <label class="field__label" for="first-name">Имя</label>
+                    <input class="field__input" type="date" name="birth-day" id="birth-day" />
+                    <span class="field__error">текст ошибки</span>
+                </div>
+                <button class="form__submit" type="submit" id="form-button">Отправить</button>
+            </form>
+        </div>
+        <script type="module" src="./js/main.js"></script>
+    </body>
+</html>
